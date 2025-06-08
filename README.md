@@ -1,2 +1,12 @@
 # Ambinuary
-A curated wellness blog offering thoughtful reviews and recommendations on products that support balance, self-care, and mindful living.
+
+Ambinuary is een wellness blog met eerlijke reviews en aanbevelingen voor balans, self-care en mindful living. Deze repository bevat een basis website met een startpagina, informatiepagina en voorbeeldposts.
+
+## Bestanden
+
+- `index.html` - startpagina van de blog
+- `about.html` - achtergrondinformatie over Ambinuary
+- `posts/` - map met voorbeeldartikelen
+- `styles/style.css` - eenvoudige opmaak
+
+Open `index.html` in je browser om de site te bekijken.
