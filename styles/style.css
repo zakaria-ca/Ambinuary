@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color: #f9f9f9;
     color: #333;
+    line-height: 1.6;
 }
 
 header {
@@ -31,9 +32,14 @@ nav a {
     color: white;
     text-decoration: none;
 }
+nav a:hover {
+    text-decoration: underline;
+}
 
 main {
     padding: 1em;
+    max-width: 800px;
+    margin: auto;
 }
 
 footer {
@@ -41,4 +47,29 @@ footer {
     padding: 1em;
     background-color: #e2e2e2;
     margin-top: 2em;
+}
+
+/* Dark mode */
+body.dark {
+    background-color: #333;
+    color: #f9f9f9;
+}
+
+body.dark header,
+body.dark footer {
+    background-color: #444;
+}
+
+body.dark nav a {
+    color: #f9f9f9;
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav li {
+        margin-right: 0;
+        margin-bottom: 0.5em;
+    }
 }
